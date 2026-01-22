@@ -1,4 +1,4 @@
-# 🚗 Self-Driving Highway Controller using Model Predictive Control
+# Self-Driving Highway Controller using Model Predictive Control
 
 ## The Challenge That Got Us Hooked
 
@@ -6,16 +6,16 @@ Autonomous vehicles are everywhere in the news, but how do you actually make a c
 
 After weeks of mathematical modeling, coding in Python, and debugging optimization algorithms, we ended up with something that genuinely impressed us every time it ran. It's basically the brain behind those self-driving features you see in Tesla and other autonomous vehicles!
 
-## 🎯 What Makes This Special
+## What Makes This Special
 
-- **🧠 Model Predictive Control (MPC)** - Uses predictive optimization to plan the safest, most efficient path
-- **🚧 Dynamic Obstacle Avoidance** - Smoothly navigates around static obstacles while maintaining safety margins
-- **🛣️ Intelligent Lane Keeping** - Keeps the vehicle centered in the lane without sacrificing travel time  
-- **😌 Comfort-Optimized Driving** - Input rate limiting ensures smooth acceleration and steering (no jerky movements!)
-- **⚡ Real-time Performance** - Fast enough for actual highway speeds (130 km/h max)
-- **📐 Kinematic Bicycle Model** - Industry-standard vehicle representation used in real autonomous vehicles
+- **Model Predictive Control (MPC)** - Uses predictive optimization to plan the safest, most efficient path
+- **Dynamic Obstacle Avoidance** - Smoothly navigates around static obstacles while maintaining safety margins
+- **Intelligent Lane Keeping** - Keeps the vehicle centered in the lane without sacrificing travel time  
+- **Comfort-Optimized Driving** - Input rate limiting ensures smooth acceleration and steering (no jerky movements!)
+- **Real-time Performance** - Fast enough for actual highway speeds (130 km/h max)
+- **Kinematic Bicycle Model** - Industry-standard vehicle representation used in real autonomous vehicles
 
-## 🛠️ The Technical Arsenal
+## The Technical Arsenal
 
 | Component | What We Used | Why This Matters |
 |-----------|-------------|------------------|
@@ -27,7 +27,7 @@ After weeks of mathematical modeling, coding in Python, and debugging optimizati
 
 *Total development time: 6 weeks of intensive modeling, coding, and testing*
 
-## 🚀 How This Actually Works
+## How This Actually Works
 
 ### The Brain (MPC Algorithm)
 ```python
@@ -73,7 +73,7 @@ for each_time_step():
 - Highway boundaries (never leave the road)
 - Physical limits (max acceleration, steering angles)
 
-## 📊 System Architecture & Performance
+## System Architecture & Performance
 
 ```
 [Vehicle State] ──┐
@@ -94,7 +94,7 @@ for each_time_step():
 - **Obstacle detection:** 100m+ lookahead distance
 - **Safety margins:** 1.7m minimum clearance maintained
 
-## 🎥 See It In Action
+## See It In Action
 
 Our controller successfully handles:
 
@@ -108,7 +108,7 @@ Our controller successfully handles:
 
 **Bonus - Multiple Obstacles:** Successfully navigates complex scenarios with 3+ obstacles
 
-## 😅 The Challenges (And How We Conquered Them)
+## The Challenges (And How We Conquered Them)
 
 **MPC Tuning Nightmare:** Getting the cost function weights right took forever. Too much emphasis on speed → crashes into obstacles. Too much on safety → crawls at 50 km/h. The solution: systematic weight tuning and extensive simulation testing.
 
@@ -118,7 +118,7 @@ Our controller successfully handles:
 
 **Real-time Performance:** Making sure our controller could run fast enough for actual highway speeds required careful algorithm optimization and efficient CasADi implementation.
 
-## 🧠 What This Project Taught Us
+## What This Project Taught Us
 
 **Technical Skills:**
 - **Nonlinear Model Predictive Control** - Advanced control theory used in industry
@@ -134,23 +134,23 @@ Our controller successfully handles:
 - Good visualization saves hours of debugging time
 - Teamwork makes complex projects manageable
 
-## 🔥 Current Capabilities vs Future Dreams
+## Current Capabilities vs Future Dreams
 
-**✅ What Works Now:**
+**What Works Now:**
 - Highway speed autonomous driving (up to 130 km/h)
 - Single and multiple obstacle avoidance
 - Smooth, comfortable ride quality
 - Real-time performance suitable for actual deployment
 - Robust lane keeping and centering
 
-**🚀 What's Coming Next:**
+**What's Coming Next:**
 - [ ] Dynamic obstacle handling (moving vehicles)
 - [ ] Multi-lane highway scenarios with lane changes
 - [ ] Integration with camera/LIDAR sensor data
 - [ ] Weather and road condition adaptations
 - [ ] Highway-to-surface street transitions
 
-## 💭 Real-World Impact
+## Real-World Impact
 
 This isn't just an academic exercise - we've implemented the same core algorithms used in:
 
@@ -161,7 +161,7 @@ This isn't just an academic exercise - we've implemented the same core algorithm
 
 The techniques we developed here scale directly to production autonomous vehicle systems!
 
-## 🏷️ Technologies Used
+## Technologies Used
 
 `Model-Predictive-Control` `Python` `CasADi` `IPOPT` `Autonomous-Vehicles` `Control-Systems` `Optimization` `Vehicle-Dynamics` `Highway-Automation` `Safety-Critical-Systems` `Numerical-Methods`
 
