@@ -167,6 +167,6 @@ The techniques we developed here scale directly to production autonomous vehicle
 
 ---
 
-**Built with mathematical precision, optimization algorithms, and way too much coffee ☕**
+**Built with mathematical precision, optimization algorithms, and way too much coffee**
 
 *This project convinced me that autonomous vehicles aren't just science fiction - they're sophisticated optimization problems that we can solve today with the right combination of control theory, numerical methods, and persistent debugging. Every successful obstacle avoidance felt like watching the future unfold in real-time!*
